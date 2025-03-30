@@ -398,7 +398,15 @@ if __name__ == '__main__':
     # Russia inside
     Path("Russia").mkdir(parents=True, exist_ok=True)
 
-    removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app' }
+    removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', "discord-activities.com", "discord-attachments-uploads-prd.storage.googleapis.com", "discord.co", "discord.com",
+    "discord.design", "discord.dev", "discord.gg", "discord.gift", "discord.gifts", "discord.media", "discord.new",
+    "discord.store", "discord.tools", "discordactivities.com", "discordapp.com", "discordapp.net", "discordmerch.com",
+    "discordpartygames.com", "discordsays.com", "googlevideo.com", "wide-youtube.l.google.com", "youtu.be",
+    "youtube-nocookie.com", "youtube-ui.l.google.com", "youtube.com", "youtubeembeddedplayer.googleapis.com",
+    "youtubei.googleapis.com", "youtubekids.com", "yt-video-upload.l.google.com", "ytimg.com", "ytimg.l.google.com",
+    "rutor.info", "rutor.is", "rutor.org", "rutracker.cc", "rutracker.net", "rutracker.org", "rutracker.wiki",
+    "musical.ly", "tik-tokapi.com", "tiktok.com", "tiktokcdn-eu.com", "tiktokcdn-us.com", "tiktokcdn.com",
+    "tiktokd.net", "tiktokd.org", "tiktokv.com", "tiktokv.us", "tiktokw.us" }
     removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
     removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
     
