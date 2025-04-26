@@ -31,7 +31,7 @@ jobs:
         -v ${{ github.workspace }}/Services:/app/Services \
         -v ${{ github.workspace }}/SRS:/app/SRS \
         -v ${{ github.workspace }}/DAT:/app/DAT \
-        itdoginfo/compilesrs:0.1.13
+        itdoginfo/compilesrs:0.1.14
 
     - name: Set release tag
       run: echo "TAG_NAME=$(date +'%Y-%m-%d_%H-%M')" >> $GITHUB_ENV
