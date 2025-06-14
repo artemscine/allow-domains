@@ -1,14 +1,7 @@
 name: Create lists
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - .github/workflows/create-lists.yml
-      - Categories/**
-      - Services/**
-      - src/**
-      - convert.py
+    workflow_dispatch:
 
 permissions:
   contents: write
